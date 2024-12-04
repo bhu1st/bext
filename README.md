@@ -121,7 +121,7 @@ $ 10000 ~Bank ?Initial deposit :bank
 
 ### **Parsing the files**
 
-Coming soon
+- PHP Parser [BEXT-PHP](https://github.com/bhu1st/bext-php) 
 
 ### **Future**
 
