@@ -106,15 +106,15 @@ This represents an income of 5000 units, with Bhupal as the persons, categorized
 Below are 10 example records (`sample.bext`) that show how different fields can be used in the format. The fields can appear in any order.
 
 ```
-$ 10000 ~Bank ?Initial deposit :bank
-+ 7000 @Bhupal #Salary [12/01/2024 10:00] ~Bank ?Monthly salary deposit :cash
+$ 10000 ~Bank ?Initial deposit :bank [2024/12/01 10:00]
++ 7000 @Bhupal #Salary [12/01 10:00] ~Bank ?Monthly salary deposit :cash
 - 500 #Groceries ~Wallet ?Grocery shopping @Family :card
-+ 1000 @Bhupal;Bhumika [12/01/2024 10:00] ~Bank ?Multiple persons and account specified #Test :qr
-+ 1000 @Partner #Consulting [12/02/2024 09:00] ?Payment for consulting services :wallet
++ 1000 @Bhupal;Bhumika [12/01 10:00] ~Bank ?Multiple persons and account specified #Test :qr
++ 1000 @Partner #Consulting [12/02 09:00] ?Payment for consulting services :wallet
 - 2000 @Bhupal #Rent;Bhada ~Bank ?December rent payment :card
 + 500 @Dad #Gift ~Wallet ?Birthday gift for Partner :qr
 - 70 @Family #Utilities ~Cash ?Electricity bill payment :cash
-+ 1000 @Partner #Investment [12/05/2024 15:00] ~Bank ?Stock market investment :bank
++ 1000 @Partner #Investment [2024/12/05 15:00] ~Bank ?Stock market investment :bank
 - 200 @Bhupal #Dining;Food ~Cash ?Dinner at restaurant :cash
 ```
 
