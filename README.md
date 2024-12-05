@@ -13,17 +13,17 @@ The file extension for this format should be `.bext` (Budget and Expense Trackin
 - **`@`**: Used to specify the person associated with the transaction (e.g., who is making or receiving the payment).
 - **`#`**: Used to specify the category of the transaction (e.g., salary, groceries, utilities).
 - **`$`**: Used to specify the budget allocation for a specific account, category or person.
-- **`[]`**: Denotes a timestamp for the entry in the format `MM/DD/YYYY HH:mm`.
+- **`[]`**: Denotes a timestamp for the entry in the format `YY/MM/DD HH:MM`
 - **`~`**: Denotes the account from which the transaction was made (e.g., Bank, Wallet, Cash).
 - **`?`**: Indicates remarks or additional notes about the transaction.
 - **`:`**: Denotes the payment method used (e.g., cash, card, wallet, QR).
 - **`;`**: to separate multiple entries within specific fields (`@`, `#`, `~`).
-- **`>`**: to specify subcategories within (`~` and `#`).
+- **`>`**: to specify subcategories within (`~` and `#`)
 
 
 ### **General Structure**
 
-Each line in the file represents a **single transaction** or record. The fields in the record can appear in any order. All records should be separated by a newline.
+Each line in the file represents a **single transaction** or record. The first character of the line determines the type of the record (`+`, `-`, or `$`) followed by amount and other fields. Other fields (`@`, `#`, `[]`, `~`, `:` and `?`) in the record can appear in any order. All records should be separated by a newline.
 
 ### **Field Specifications**
 
