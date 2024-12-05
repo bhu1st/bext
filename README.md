@@ -20,7 +20,6 @@ The file extension for this format should be `.bext` (Budget and Expense Trackin
 - **`;`**: to separate multiple entries within specific fields (`@`, `#`, `~`).
 - **`>`**: to specify subcategories within (`~` and `#`)
 
-
 ### **General Structure**
 
 Each line in the file represents a **single transaction** or record. The first character of the line determines the type of the record (`+`, `-`, or `$`) followed by amount and other fields. Other fields (`@`, `#`, `[]`, `~`, `:` and `?`) in the record can appear in any order. All records should be separated by a newline.
