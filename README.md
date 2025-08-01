@@ -10,6 +10,7 @@ The file extension for this format should be `.bext` (Budget and Expense Trackin
 ### **Field Delimiters**
 - **`+`**: Used to denote an income entry.
 - **`-`**: Used to denote an expense entry.
+- **`*`**: Used to denote a comment entry. Empty lines are ignored.
 - **`@`**: Used to specify the person associated with the transaction (e.g., who is making or receiving the payment).
 - **`#`**: Used to specify the category of the transaction (e.g., salary, groceries, utilities).
 - **`$`**: Used to specify the budget allocation for a specific account, category or person.
